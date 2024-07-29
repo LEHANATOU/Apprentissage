@@ -1,0 +1,243 @@
+body {
+    font-family: FuturaPTBook, arial, sans-serif;
+    margin: auto;  
+    padding: auto;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid rgb(240, 229, 214);
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.en-tete img {
+   margin-left: 50px;
+   margin-top: 0px;
+  
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+
+  }
+  nav a {
+    margin-left: 50px;
+  }
+  
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 500px;
+    border: solid white;
+    font-size: large;
+    width: auto;
+    padding: 10px;
+}
+  nav button {
+    margin-left: 50px;
+    padding: 20px;
+   
+  }
+ 
+a:hover {
+    color: blue;
+}
+
+button:hover {
+    background-color: #080892ce;
+}
+
+h1 {
+    background-color: #CA4246;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ffcc00 16.666%, 
+    #f7a72f 16.666%, 
+    #ffcc66 33.333%, 
+    #e0dbd5 33.333%, 
+    #f68e7c 50%, 
+    #f3ae18 50%,  
+    #f7378a.333%, 
+    #fb68b4 66.666%, 
+    #e624bf 66.666%,
+    #f5669a 83.333%);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+    font-size: 70px;
+    font-family: Bitter;
+}
+.premiere-partie{
+  width: 100%;
+}
+
+.djamo {
+    position: absolute;
+    top: 150px; 
+    left: 250px;
+    width: 100%;
+  }
+ p {
+    font-size: 20px;
+ }
+ form {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    left: 200px; 
+ }
+
+
+ input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  #indicatif {
+    width: 80px;
+    font-size: 20px;
+  }
+  #numero {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  
+ .banque {
+    position: absolute;
+    top: 480px; 
+    left: 250px;
+ }
+
+ .banque img {
+    width: 130px;
+    position: absolute;
+ }
+
+#ecobank {
+    left: 150px;
+}
+
+ .phone {
+    position: relative;
+    top: 60px; 
+    right: 100px;
+ }
+ #phonesvg {
+    position: absolute;
+    right: 258px;
+    width: 280px;
+    top: 25px;
+ }
+
+ #carte {
+    position: absolute;
+    top: 278px; 
+    right: 140px;
+    width: 200px;
+ }
+.deuxieme-partie {
+  position: relative;
+  top: 730px; 
+  left: 0px;
+  background-color: black;
+  width: 100%;
+  
+}
+
+.pub {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+
+#titre1, #titre2, #titre3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.pub div {
+  color: #b3b5b5;
+}
+.troisieme-partie {
+  background-color: #f5f5f5;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 800px;
+  flex-direction: column;
+}
+.application {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  text-align: center;
+
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+
+}
+h2{
+  background-color: #CA4246;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ffcc00 16.666%, 
+    #f7a72f 16.666%, 
+    #ffcc66 33.333%, 
+    #e0dbd5 33.333%, 
+    #f68e7c 50%, 
+    #f3ae18 50%,  
+    #f7378a.333%, 
+    #fb68b4 66.666%, 
+    #e624bf 66.666%,
+    #f5669a 83.333%);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+    font-size: 60px;
+    font-family: Bitter;
+    left: 10%;
+}
+.application p {
+  font-family: Bitter;
+  left: 10%;
+}
